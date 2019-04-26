@@ -1,7 +1,6 @@
 from django.conf.urls import url
 from . import views
 from .models import User
-#Defining URLs related to webpage
 app_name = 'webpage'
 
 db = User.objects.all()
